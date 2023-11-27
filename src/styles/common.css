@@ -14,3 +14,24 @@ body {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+.title__general {
+  position:relative;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: 0.06em;
+}
+
+.title__general::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 190px;
+  height: 32px;
+  background-image: url('./../img/icons/yellow-decor.svg');
+  background-repeat: no-repeat;
+}
