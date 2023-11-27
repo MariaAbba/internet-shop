@@ -1,0 +1,85 @@
+.promo {
+  margin-bottom: 63px;
+}
+
+.promo__content {
+  display: flex;
+  column-gap: 24px;
+
+  padding-top: 68px;
+  padding-left: 120px;
+
+  border-radius: 59px;
+  background-color: #F4F6F5;
+}
+
+.promo__text {}
+
+.promo__title {
+  max-width: 480px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.25;
+
+}
+
+.promo__descr {
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: calc(48 / 32);
+  letter-spacing: -0.05em;
+}
+
+.promo__btn-wrapper {
+  display: flex;
+  column-gap: 34px;
+  align-items: center;
+}
+
+
+.promo__btn-wrapper::before {
+  content: '';
+  display: inline-block;
+  /* position: absolute; */
+  width: 190px;
+  height: 32px;
+  background-image: url('./../../img/icons/yellow-decor.svg');
+}
+
+.promo__btn {
+  padding: 18px 40px;
+  border-radius: 10px;
+  background: #000;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight span {
+  position: relative;
+
+}
+
+.highlight::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -12px;
+  bottom: -0px;
+  left: -40px;
+  right: -160px;
+  background-color: #fff;
+  transform: rotate(-2deg)
+}
+
+.highligh--yellow::before {
+background-color: var(--yellow);
+  right: -110px;
+}
