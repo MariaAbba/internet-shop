@@ -26,13 +26,11 @@
 }
 
 .header__nav {
-  font-family: Poppins;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: .01em;
   text-align: left;
-  color: #fff;
 }
 
 .header__nav ul {
