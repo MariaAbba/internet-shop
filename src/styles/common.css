@@ -1,4 +1,4 @@
-:root{
+:root {
   --textColor: #000;
   --yellow: #EBD96B;
   --grey: #7F7F7F;
@@ -7,7 +7,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--textColor)
- 
 }
 
 .container {
@@ -17,7 +16,7 @@ body {
 }
 
 .title__general {
-  position:relative;
+  position: relative;
   display: inline-block;
   font-weight: 900;
   font-size: 48px;
@@ -35,4 +34,14 @@ body {
   height: 32px;
   background-image: url('./../img/icons/yellow-decor.svg');
   background-repeat: no-repeat;
+}
+
+.btn-general {
+  padding: 18px 40px;
+  border-radius: 10px;
+  background: #000;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #fff;
 }

@@ -48,7 +48,7 @@
   background-image: url('./../../img/icons/yellow-decor.svg');
 }
 
-.promo__btn {
+/* .promo__btn {
   padding: 18px 40px;
   border-radius: 10px;
   background: #000;
@@ -56,7 +56,7 @@
   font-size: 30px;
   line-height: 1.5;
   color: #fff;
-}
+} */
 
 .highlight {
   position: relative;
@@ -80,7 +80,7 @@
   transform: rotate(-2deg)
 }
 
-.highligh--yellow::before {
+.highlight--yellow::before {
 background-color: var(--yellow);
   right: -110px;
 }
