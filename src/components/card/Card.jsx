@@ -5,6 +5,7 @@ import arrowImg from './../../img/icons/arrow.svg'
 const Card = () => {
   return (
     <div className="card">
+      <a href="#!" className='card__link'></a>
       <img className="card__img" src={cat01Img} alt="Category" />
       <div className="card__body">
         <div className="card__text">
