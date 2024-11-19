@@ -4,13 +4,15 @@ import chair from './../assets/chair.jpg'
 import chair1 from './../assets/chair1.jpg'
 import sofa from './../assets/sofa.png'
 import user from './../assets/user.jpg'
+import user1 from './../assets/user1.jpg'
+import user2 from './../assets/user2.jpg'
 import lamp from './../assets/lamp.jpg'
 import furniture from './../assets/furniture.jpg'
 import { HiStar } from 'react-icons/hi'
 import { FaArrowRight } from 'react-icons/fa'
 import { LuShoppingCart } from 'react-icons/lu'
 import Footer from '../components/Footer'
-import StarRating from '../components/StarRating'
+
 
 const Home = () => {
   return (
@@ -136,9 +138,9 @@ const Home = () => {
               </p>
               <p className="text-sm pt-8 pb-4">Crafted by: </p>
               <span className="flex items-center gap-x-4">
-                <img src={user} alt="" className="w-10 h-10 rounded-full" />
-                <img src={user} alt="" className="w-10 h-10 rounded-full" />
-                <img src={user} alt="" className="w-10 h-10 rounded-full" />
+                <img src={user} alt="designer photo" className="w-10 h-10 rounded-full" />
+                <img src={user1} alt="designer photo" className="w-10 h-10 rounded-full" />
+                <img src={user2} alt="designer photo" className="w-10 h-10 rounded-full" />
               </span>
             </div>
 
@@ -179,7 +181,7 @@ const Home = () => {
           <div className="lg:w-1/2 lg:py-60 py-10">
             <img
               src={sofa}
-              alt=""
+              alt="sofa"
               data-aos="zoom-in"
               className="w-full relative z-10 lg:ml-20"
             />
@@ -230,7 +232,7 @@ const Home = () => {
                 <span className="flex justify-between">
                   <img
                     src={lamp}
-                    alt=""
+                    alt="lamp"
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="3000"
@@ -238,7 +240,7 @@ const Home = () => {
                   />
                   <img
                     src={lamp}
-                    alt=""
+                    alt="lamp"
                     className="w-1/3"
                     data-aos="fade-up"
                     data-aos-easing="linear"
@@ -263,7 +265,7 @@ const Home = () => {
             </div>
           </div>
           <span className="lg:w-2/5 relative">
-            <img src={lamp} alt="" className="w-full" />
+            <img src={lamp} alt="lamp" className="w-full" />
             <div className="bg-gray rounded-2xl"></div>
           </span>
         </section>
