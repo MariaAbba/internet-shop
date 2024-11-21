@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-wrap  gap-4 items-center justify-between mt-16">
-        <p>&copy; 2024 Cobalten. All Right Reserved</p>
+        <p>&copy; 2024 France and Son. All Right Reserved</p>
         <div className="flex justify-between lg:w-1/3 w-full ">
           <a href="#" className="no-underline text-black hover:text-secondary">
             Privacy Policy
